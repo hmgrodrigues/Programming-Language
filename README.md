@@ -27,13 +27,11 @@ So if we wanted to run the compiler where the **TestFile.txt** file has the sour
 The **abstract syntax** of the language is as follows:
 
 **T** -> 
-
 *	**int** 
 *	**bool** 
 *	**ref** T
 
 **EE** -> 
-
 * EE ; EE | EE := EE
 * ***num*** | ***id*** | ***bool***
 * **def** (**id**:T = EE)+ **in** EE **end** | **new** EE | **!** EE
