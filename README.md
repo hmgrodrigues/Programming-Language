@@ -9,7 +9,7 @@ It consists of a programming language with an Interpreter and a Compiler. It has
 * Variable definition
 * Conditionals
 * Loops
-* Sequences of operations
+* Sequence of operations
 * Type checking
 * Print results
 * Store values in memory
@@ -24,24 +24,25 @@ To run it, enter the src folder and run on the command line:
 
 The abstract syntax of the language is as follows:
 
-EE -> 
+	EE -> 
 
-	| EE ; EE | EE := EE
+		| EE ; EE | EE := EE
 
-	| num | id | bool
+		| **num** | **id** | **bool**
 
-	| def (id = EE)+ in EE end | new EE | <!>EE
+		| **def** (**id** = EE)+ **in** EE **end** | **new** EE | **!**EE
 
-	| if EE then EE else EE end
+		| **if** EE **then** EE **else** EE **end**
 
-	| while EE do EE end
+		| **while** EE **do** EE **end**
 
-	| EE binop EE | unop E
+		| EE **binop** EE | **unop* EE
 
 **Arithmetic operations** (on integer values)
 
 *	EE+EE 
 *	EE-EE 
+*	EE*EE
 * 	EE/EE 
 *	EE%EE 
 * 	-EE
