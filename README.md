@@ -19,24 +19,19 @@ The "TestFile.txt" is the file where we pass the expressions to the compiler. Yo
 
 To run it, enter the src folder and run on the command line:
 
-* To run the Interpreter: java Main I
-* To run the Compiler: java Main C filename, where filename is the name of file where you passed the expressions (your code).
+* To run the Interpreter: **java Main I**
+* To run the Compiler: **java Main C filename**, where filename is the name of file (.txt) where you pass the expressions (your code) to be compiled.
 
-The abstract syntax of the language is as follows:
+The **abstract syntax** of the language is as follows:
 
-	EE -> 
+**EE** -> 
 
-		| EE ; EE | EE := EE
-
-		| **num** | **id** | **bool**
-
-		| **def** (**id** = EE)+ **in** EE **end** | **new** EE | **!**EE
-
-		| **if** EE **then** EE **else** EE **end**
-
-		| **while** EE **do** EE **end**
-
-		| EE **binop** EE | **unop* EE
+* EE ; EE | EE := EE
+* **num** | **id** | **bool**
+* **def** (**id** = EE)+ **in** EE **end** | **new** EE | **!**EE
+* **if** EE **then** EE **else** EE **end**
+* **while** EE **do** EE **end**
+* EE **binop** EE | **unop** EE
 
 **Arithmetic operations** (on integer values)
 
@@ -56,8 +51,8 @@ The abstract syntax of the language is as follows:
 * 	EE<=EE 
 * 	EE>=EE
 
-Logical operations (on boolean values)
+**Logical operations** (on boolean values)
 
 *	EE && EE
-*	EE || EE 
+*	EE || EE
 *	!EE
