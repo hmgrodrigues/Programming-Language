@@ -34,7 +34,7 @@ The **abstract syntax** of the language is as follows:
 **EE** -> 
 * EE **;** EE | EE **:=** EE
 * ***num*** | ***id*** | ***bool***
-* **def** (**id:**T **=** EE)+ **in** EE **end** | **new** EE | **!** EE
+* **def** (**id :** T **=** EE)+ **in** EE **end** | **new** EE | **!** EE
 * **if** EE **then** EE **else** EE **end**
 * **if** EE **then** EE **end**
 * **while** EE **do** EE **end**
