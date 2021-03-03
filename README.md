@@ -42,27 +42,27 @@ The **abstract syntax** of the language is as follows:
 
 **Arithmetic operations** (on integer values)
 
-*	EE**+**EE 
-*	EE**-**EE 
-*	EE*****EE
-* 	EE**/**EE 
-*	EE**%**EE 
-* 	**-**EE
-*	**(**EE**)**
+*	EE+EE 
+*	EE-EE 
+*	EE*EE
+* 	EE/EE 
+*	EE%EE 
+* 	-EE
+*	(EE)
 
 **Relational operations**
 
-* 	EE**==**EE 
-* 	EE**>**EE 
-*	EE**<**EE 
-* 	EE**<=**EE 
-* 	EE**>=**EE
+* 	EE==EE 
+* 	EE>EE 
+*	EE<EE 
+* 	EE<=EE 
+* 	EE>=EE
 
 **Logical operations** (on boolean values)
 
-*	EE **&&** EE
-*	EE **||** EE
-*	**!**EE
+*	EE && EE
+*	EE || EE
+*	!EE
 
 Some examples of code written on this programming language:
 
