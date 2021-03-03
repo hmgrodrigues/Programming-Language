@@ -44,7 +44,7 @@ The **abstract syntax** of the language is as follows:
 
 *	EE **+** EE 
 *	EE **-** EE 
-*	EE ***** EE
+*	EE * EE
 * 	EE **/** EE 
 *	EE **%** EE 
 * 	**-** EE
