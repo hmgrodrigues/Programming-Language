@@ -42,7 +42,7 @@ The **abstract syntax** of the language is as follows:
 
 **Arithmetic operations** (on integer values)
 
-*	EE+EE 
+*	EE **+** EE 
 *	EE-EE 
 *	EE*EE
 * 	EE/EE 
