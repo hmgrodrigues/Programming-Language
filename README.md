@@ -1,7 +1,6 @@
 # Programming-Language
 
-This project was developed as part of the Interpretation and Compilation of Languages course. 
-It consists of a programming language with an Interpreter and a Compiler. It has the following operations/expressions:
+This project consists of a programming language with an Interpreter and a Compiler having the following operations/expressions:
 
 * Arithmetic
 * Relational
