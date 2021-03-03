@@ -7,13 +7,13 @@ It consists of a programming language with an Interpreter and a Compiler. It has
 * Relational
 * Logical
 * Variable definition
-* Variable assigning
 * Conditionals
 * Loops
 * Sequence of operations
 * Type checking
 * Print results
 * References/Pointers (like C/C++)
+* Variable assigning
 
 The "TestFile.txt" is the file where we pass the expressions to the compiler. You can add any file to write the expressions but you must specify it when you run the program on the command line. The file must be on the project's root.
 
@@ -64,7 +64,7 @@ The **abstract syntax** of the language is as follows:
 *	EE **||** EE
 *	**!** EE
 
-Some examples of code written on this programming language:
+Some examples of code written in this programming language:
 
 A simpler program:
 
