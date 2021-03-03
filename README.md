@@ -15,14 +15,14 @@ It consists of a programming language with an Interpreter and a Compiler. It has
 * Print results
 * References/Pointers (like C/C++)
 
-The "TestFile.txt" is the file where we pass the expressions to the compiler. You can add any file to write the expressions but you need to specify it when you run the program on the command line.
+The "TestFile.txt" is the file where we pass the expressions to the compiler. You can add any file to write the expressions but you must specify it when you run the program on the command line. The file must be on the project's root.
 
 To run it, enter the src folder and run on the command line:
 
 * To run the Interpreter: **java Main I**
 * To run the Compiler: **java Main C filename** where filename is the name of file (.txt) where you pass the expressions (your code) to be compiled.
 
-So if we wanted to run the compiler where the **TestFile.txt** file has the source code, we run: **java Main C TestFile.txt**
+So if we want to run the compiler where the **TestFile.txt** file has the source code, we run: **java Main C TestFile.txt**
 
 The **abstract syntax** of the language is as follows:
 
