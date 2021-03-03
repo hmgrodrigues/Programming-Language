@@ -26,12 +26,12 @@ So if we want to run the compiler where the **TestFile.txt** file has the source
 
 The **abstract syntax** of the language is as follows:
 
-**T** -> 
+**T** -> Admitted Types
 *	**int** 
 *	**bool** 
 *	**ref** T
 
-**EE** -> 
+**EE** -> Expressions
 * EE **;** EE | EE **:=** EE
 * ***num*** | ***id*** | ***bool***
 * **def** (**id :** T **=** EE)+ **in** EE **end** | **new** EE | **!** EE
