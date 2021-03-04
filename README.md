@@ -14,6 +14,8 @@ This project consists of a programming language with an Interpreter and a Compil
 * Variable assigning
 * References/Pointers (like C/C++)
 
+## How to run it
+
 The "TestFile.txt" is the file where we pass the expressions to the compiler. You can add any file to write the expressions but you must specify it when you run the program on the command line. The file must be on the project's root.
 
 To run it, enter the **src/** folder and run on the command line:
@@ -22,6 +24,8 @@ To run it, enter the **src/** folder and run on the command line:
 * To run the Compiler: **java Main C filename** where filename is the name of file (.txt) where you pass the expressions (your code) to be compiled.
 
 So if we want to run the compiler where the **TestFile.txt** file has the source code, we run: **java Main C TestFile.txt**
+
+## Abstract syntax
 
 The **abstract syntax** of the language is as follows:
 
@@ -62,6 +66,8 @@ The **abstract syntax** of the language is as follows:
 *	EE **&&** EE
 *	EE **||** EE
 *	**!** EE
+
+## Examples of code
 
 Some examples of code written in this programming language:
 
