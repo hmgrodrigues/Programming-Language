@@ -21,9 +21,9 @@ The "TestFile.txt" is the file where we pass the expressions to the compiler. Yo
 To run it, enter the **src/** folder and run on the command line:
 
 * To run the Interpreter: **java Main I**
-* To run the Compiler: **java Main C filename** where filename is the name of file (.txt) where you pass the expressions (your code) to be compiled.
+* To run the Compiler: **java Main C filename** where filename is the name of the file (.txt) where you pass the expressions (your code) to be compiled.
 
-So if we want to run the compiler where the **TestFile.txt** file has the source code, we run: **java Main C TestFile.txt**
+So if we want to run the compiler where **TestFile.txt** has the source code, we run: **java Main C TestFile.txt**
 
 ## Abstract syntax
 
